@@ -1,0 +1,26 @@
+{
+  "dataset": "SIS",
+  "rules": 40,
+  "permit_rules": 20,
+  "deny_rules": 20,
+  "policies": 15,
+  "domain_requests": 5043,
+  "reference_evaluations": 75645,
+  "selected_test_evaluations": 55,
+  "unique_request_values": 41,
+  "mutants": 230,
+  "killed": 200,
+  "equivalent_finite": 30,
+  "source_sha256": "40ac4e79f0c0f3b8abf4ee2a38b0f7847c53ceafee1de3b940dbd566da377f5d",
+  "membership_sha256": "d4b4e598276bcb6537ec2af652c7eebdcd22b854a7a0c6979278986654730568",
+  "assumptions": [
+    "PolicyRule fragments normalized to singleton-equality XACML 3.0 targets",
+    "policy membership from public repository; all 40 rules accounted for",
+    "DenyOverrides assumed because combining algorithm absent from provided data",
+    "missing conditions are true; policy targets universal; environment singleton",
+    "15 policies tested independently, no root PolicySet result",
+    "new concrete context not verified by Rodin",
+    "restricted binding parser; original machine events not executed",
+    "local compiled XML-subset evaluator, not independent PDP; no XSD validation"
+  ]
+}

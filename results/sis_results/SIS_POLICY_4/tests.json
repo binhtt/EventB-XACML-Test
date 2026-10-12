@@ -1,0 +1,42 @@
+[
+  {
+    "policy": "SIS_POLICY_4",
+    "request": [
+      "Teacher_1",
+      "Grades_01",
+      "modify"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "SIS_POLICY_4",
+    "request": [
+      "Teacher_10",
+      "Grades_10",
+      "modify"
+    ],
+    "expected": "Deny",
+    "index": 150
+  },
+  {
+    "policy": "SIS_POLICY_4",
+    "request": [
+      "Teacher_11",
+      "Grades_11",
+      "view"
+    ],
+    "expected": "Permit",
+    "index": 277
+  },
+  {
+    "policy": "SIS_POLICY_4",
+    "request": [
+      "Teacher_12",
+      "Grades_12",
+      "modify"
+    ],
+    "expected": "Deny",
+    "index": 402
+  }
+]
