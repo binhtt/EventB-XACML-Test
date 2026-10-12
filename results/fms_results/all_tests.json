@@ -1,0 +1,632 @@
+[
+  {
+    "policy": "P1",
+    "request": [
+      "Role1",
+      "Action1"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 0
+  },
+  {
+    "policy": "P1",
+    "request": [
+      "Role1",
+      "Action10"
+    ],
+    "expected": "NotApplicable",
+    "model_event": "Combine_DenyOverrides_NotApplicable",
+    "index": 1
+  },
+  {
+    "policy": "P1",
+    "request": [
+      "Role2",
+      "Action2"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 517
+  },
+  {
+    "policy": "P1",
+    "request": [
+      "Role3",
+      "Action3"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 1034
+  },
+  {
+    "policy": "P2",
+    "request": [
+      "Role1",
+      "Action1"
+    ],
+    "expected": "NotApplicable",
+    "model_event": "Combine_DenyOverrides_NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "P2",
+    "request": [
+      "Role4",
+      "Action4"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 1551
+  },
+  {
+    "policy": "P2",
+    "request": [
+      "Role5",
+      "Action5"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 1880
+  },
+  {
+    "policy": "P2",
+    "request": [
+      "Role6",
+      "Action6"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 1927
+  },
+  {
+    "policy": "P3",
+    "request": [
+      "Role1",
+      "Action1"
+    ],
+    "expected": "NotApplicable",
+    "model_event": "Combine_DenyOverrides_NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "P3",
+    "request": [
+      "Role7",
+      "Action7"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 1974
+  },
+  {
+    "policy": "P3",
+    "request": [
+      "Role8",
+      "Action8"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 2021
+  },
+  {
+    "policy": "P3",
+    "request": [
+      "Role9",
+      "Action9"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 2068
+  },
+  {
+    "policy": "P4",
+    "request": [
+      "Role1",
+      "Action1"
+    ],
+    "expected": "NotApplicable",
+    "model_event": "Combine_DenyOverrides_NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "P4",
+    "request": [
+      "Role10",
+      "Action10"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 47
+  },
+  {
+    "policy": "P4",
+    "request": [
+      "Role11",
+      "Action11"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 94
+  },
+  {
+    "policy": "P4",
+    "request": [
+      "Role12",
+      "Action12"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 141
+  },
+  {
+    "policy": "P5",
+    "request": [
+      "Role1",
+      "Action1"
+    ],
+    "expected": "NotApplicable",
+    "model_event": "Combine_DenyOverrides_NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "P5",
+    "request": [
+      "Role13",
+      "Action13"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 188
+  },
+  {
+    "policy": "P5",
+    "request": [
+      "Role14",
+      "Action14"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 235
+  },
+  {
+    "policy": "P5",
+    "request": [
+      "Role15",
+      "Action15"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 282
+  },
+  {
+    "policy": "P6",
+    "request": [
+      "Role1",
+      "Action1"
+    ],
+    "expected": "NotApplicable",
+    "model_event": "Combine_DenyOverrides_NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "P6",
+    "request": [
+      "Role16",
+      "Action16"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 329
+  },
+  {
+    "policy": "P6",
+    "request": [
+      "Role17",
+      "Action17"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 376
+  },
+  {
+    "policy": "P6",
+    "request": [
+      "Role18",
+      "Action18"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 423
+  },
+  {
+    "policy": "P7",
+    "request": [
+      "Role1",
+      "Action1"
+    ],
+    "expected": "NotApplicable",
+    "model_event": "Combine_DenyOverrides_NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "P7",
+    "request": [
+      "Role19",
+      "Action19"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 470
+  },
+  {
+    "policy": "P7",
+    "request": [
+      "Role20",
+      "Action20"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 564
+  },
+  {
+    "policy": "P7",
+    "request": [
+      "Role21",
+      "Action21"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 611
+  },
+  {
+    "policy": "P8",
+    "request": [
+      "Role1",
+      "Action1"
+    ],
+    "expected": "NotApplicable",
+    "model_event": "Combine_DenyOverrides_NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "P8",
+    "request": [
+      "Role22",
+      "Action22"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 658
+  },
+  {
+    "policy": "P8",
+    "request": [
+      "Role23",
+      "Action23"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 705
+  },
+  {
+    "policy": "P8",
+    "request": [
+      "Role24",
+      "Action24"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 752
+  },
+  {
+    "policy": "P9",
+    "request": [
+      "Role1",
+      "Action1"
+    ],
+    "expected": "NotApplicable",
+    "model_event": "Combine_DenyOverrides_NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "P9",
+    "request": [
+      "Role25",
+      "Action25"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 799
+  },
+  {
+    "policy": "P9",
+    "request": [
+      "Role26",
+      "Action26"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 846
+  },
+  {
+    "policy": "P9",
+    "request": [
+      "Role27",
+      "Action27"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 893
+  },
+  {
+    "policy": "P10",
+    "request": [
+      "Role1",
+      "Action1"
+    ],
+    "expected": "NotApplicable",
+    "model_event": "Combine_DenyOverrides_NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "P10",
+    "request": [
+      "Role28",
+      "Action28"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 940
+  },
+  {
+    "policy": "P10",
+    "request": [
+      "Role29",
+      "Action29"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 987
+  },
+  {
+    "policy": "P10",
+    "request": [
+      "Role30",
+      "Action30"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 1081
+  },
+  {
+    "policy": "P11",
+    "request": [
+      "Role1",
+      "Action1"
+    ],
+    "expected": "NotApplicable",
+    "model_event": "Combine_DenyOverrides_NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "P11",
+    "request": [
+      "Role31",
+      "Action31"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 1128
+  },
+  {
+    "policy": "P11",
+    "request": [
+      "Role32",
+      "Action32"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 1175
+  },
+  {
+    "policy": "P11",
+    "request": [
+      "Role33",
+      "Action33"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 1222
+  },
+  {
+    "policy": "P12",
+    "request": [
+      "Role1",
+      "Action1"
+    ],
+    "expected": "NotApplicable",
+    "model_event": "Combine_DenyOverrides_NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "P12",
+    "request": [
+      "Role34",
+      "Action34"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 1269
+  },
+  {
+    "policy": "P12",
+    "request": [
+      "Role35",
+      "Action35"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 1316
+  },
+  {
+    "policy": "P12",
+    "request": [
+      "Role36",
+      "Action36"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 1363
+  },
+  {
+    "policy": "P13",
+    "request": [
+      "Role1",
+      "Action1"
+    ],
+    "expected": "NotApplicable",
+    "model_event": "Combine_DenyOverrides_NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "P13",
+    "request": [
+      "Role37",
+      "Action37"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 1410
+  },
+  {
+    "policy": "P13",
+    "request": [
+      "Role38",
+      "Action38"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 1457
+  },
+  {
+    "policy": "P13",
+    "request": [
+      "Role39",
+      "Action39"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 1504
+  },
+  {
+    "policy": "P14",
+    "request": [
+      "Role1",
+      "Action1"
+    ],
+    "expected": "NotApplicable",
+    "model_event": "Combine_DenyOverrides_NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "P14",
+    "request": [
+      "Role40",
+      "Action40"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 1598
+  },
+  {
+    "policy": "P14",
+    "request": [
+      "Role41",
+      "Action41"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 1645
+  },
+  {
+    "policy": "P14",
+    "request": [
+      "Role42",
+      "Action42"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 1692
+  },
+  {
+    "policy": "P15",
+    "request": [
+      "Role1",
+      "Action1"
+    ],
+    "expected": "NotApplicable",
+    "model_event": "Combine_DenyOverrides_NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "P15",
+    "request": [
+      "Role43",
+      "Action43"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 1739
+  },
+  {
+    "policy": "P15",
+    "request": [
+      "Role44",
+      "Action44"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 1786
+  },
+  {
+    "policy": "P15",
+    "request": [
+      "Role45",
+      "Action45"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 1833
+  },
+  {
+    "policy": "P16",
+    "request": [
+      "Role1",
+      "Action1"
+    ],
+    "expected": "NotApplicable",
+    "model_event": "Combine_DenyOverrides_NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "P17",
+    "request": [
+      "Role1",
+      "Action1"
+    ],
+    "expected": "NotApplicable",
+    "model_event": "Combine_DenyOverrides_NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "P18",
+    "request": [
+      "Role1",
+      "Action1"
+    ],
+    "expected": "NotApplicable",
+    "model_event": "Combine_DenyOverrides_NotApplicable",
+    "index": 0
+  }
+]

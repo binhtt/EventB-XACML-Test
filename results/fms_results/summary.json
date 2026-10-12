@@ -1,0 +1,23 @@
+{
+  "source_sha256": "716dab4b48db7be6f031fffa7bb431ab94256dcb4103be447f8ea4994e746952",
+  "rules": 45,
+  "policies": 18,
+  "empty_policies": 3,
+  "domain_requests": 2116,
+  "reference_evaluations": 38088,
+  "selected_test_evaluations": 63,
+  "unique_request_values": 46,
+  "mutants": 171,
+  "killed": 135,
+  "equivalent_finite": 36,
+  "assumptions": [
+    "Rolei/Actioni means equality on role and action",
+    "empty Condition means true",
+    "policy targets are universal",
+    "resource and environment are singleton and irrelevant",
+    "evaluate 18 policies separately; no root PolicySet test",
+    "generated concrete Event-B context has NOT been Rodin-verified",
+    "restricted generated-binding parser, not arbitrary Event-B interpreter",
+    "XML-subset evaluator, not independent PDP; no XSD validation"
+  ]
+}

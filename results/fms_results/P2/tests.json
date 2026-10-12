@@ -1,0 +1,42 @@
+[
+  {
+    "policy": "P2",
+    "request": [
+      "Role1",
+      "Action1"
+    ],
+    "expected": "NotApplicable",
+    "model_event": "Combine_DenyOverrides_NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "P2",
+    "request": [
+      "Role4",
+      "Action4"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 1551
+  },
+  {
+    "policy": "P2",
+    "request": [
+      "Role5",
+      "Action5"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 1880
+  },
+  {
+    "policy": "P2",
+    "request": [
+      "Role6",
+      "Action6"
+    ],
+    "expected": "Permit",
+    "model_event": "Combine_DenyOverrides_Permit",
+    "index": 1927
+  }
+]
