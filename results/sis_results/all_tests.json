@@ -1,0 +1,552 @@
+[
+  {
+    "policy": "SIS_POLICY_1",
+    "request": [
+      "Teacher_1",
+      "Grades_01",
+      "modify"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "SIS_POLICY_1",
+    "request": [
+      "Teacher_1",
+      "Grades_01",
+      "view"
+    ],
+    "expected": "Permit",
+    "index": 1
+  },
+  {
+    "policy": "SIS_POLICY_1",
+    "request": [
+      "Teacher_2",
+      "Grades_02",
+      "modify"
+    ],
+    "expected": "Deny",
+    "index": 1356
+  },
+  {
+    "policy": "SIS_POLICY_1",
+    "request": [
+      "Teacher_3",
+      "Grades_03",
+      "view"
+    ],
+    "expected": "Permit",
+    "index": 2713
+  },
+  {
+    "policy": "SIS_POLICY_2",
+    "request": [
+      "Teacher_1",
+      "Grades_01",
+      "modify"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "SIS_POLICY_2",
+    "request": [
+      "Teacher_4",
+      "Grades_04",
+      "modify"
+    ],
+    "expected": "Deny",
+    "index": 4068
+  },
+  {
+    "policy": "SIS_POLICY_2",
+    "request": [
+      "Teacher_5",
+      "Grades_05",
+      "view"
+    ],
+    "expected": "Permit",
+    "index": 4318
+  },
+  {
+    "policy": "SIS_POLICY_2",
+    "request": [
+      "Teacher_6",
+      "Grades_06",
+      "modify"
+    ],
+    "expected": "Deny",
+    "index": 4443
+  },
+  {
+    "policy": "SIS_POLICY_3",
+    "request": [
+      "Teacher_1",
+      "Grades_01",
+      "modify"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "SIS_POLICY_3",
+    "request": [
+      "Teacher_7",
+      "Grades_07",
+      "view"
+    ],
+    "expected": "Permit",
+    "index": 4570
+  },
+  {
+    "policy": "SIS_POLICY_3",
+    "request": [
+      "Teacher_8",
+      "Grades_08",
+      "modify"
+    ],
+    "expected": "Deny",
+    "index": 4695
+  },
+  {
+    "policy": "SIS_POLICY_3",
+    "request": [
+      "Teacher_9",
+      "Grades_09",
+      "view"
+    ],
+    "expected": "Permit",
+    "index": 4822
+  },
+  {
+    "policy": "SIS_POLICY_4",
+    "request": [
+      "Teacher_1",
+      "Grades_01",
+      "modify"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "SIS_POLICY_4",
+    "request": [
+      "Teacher_10",
+      "Grades_10",
+      "modify"
+    ],
+    "expected": "Deny",
+    "index": 150
+  },
+  {
+    "policy": "SIS_POLICY_4",
+    "request": [
+      "Teacher_11",
+      "Grades_11",
+      "view"
+    ],
+    "expected": "Permit",
+    "index": 277
+  },
+  {
+    "policy": "SIS_POLICY_4",
+    "request": [
+      "Teacher_12",
+      "Grades_12",
+      "modify"
+    ],
+    "expected": "Deny",
+    "index": 402
+  },
+  {
+    "policy": "SIS_POLICY_5",
+    "request": [
+      "Teacher_1",
+      "Grades_01",
+      "modify"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "SIS_POLICY_5",
+    "request": [
+      "Teacher_13",
+      "Grades_13",
+      "view"
+    ],
+    "expected": "Permit",
+    "index": 529
+  },
+  {
+    "policy": "SIS_POLICY_5",
+    "request": [
+      "Teacher_14",
+      "Grades_14",
+      "modify"
+    ],
+    "expected": "Deny",
+    "index": 654
+  },
+  {
+    "policy": "SIS_POLICY_5",
+    "request": [
+      "Teacher_15",
+      "Grades_15",
+      "view"
+    ],
+    "expected": "Permit",
+    "index": 781
+  },
+  {
+    "policy": "SIS_POLICY_6",
+    "request": [
+      "Teacher_1",
+      "Grades_01",
+      "modify"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "SIS_POLICY_6",
+    "request": [
+      "Teacher_16",
+      "Grades_16",
+      "modify"
+    ],
+    "expected": "Deny",
+    "index": 906
+  },
+  {
+    "policy": "SIS_POLICY_6",
+    "request": [
+      "Teacher_17",
+      "Grades_17",
+      "view"
+    ],
+    "expected": "Permit",
+    "index": 1033
+  },
+  {
+    "policy": "SIS_POLICY_6",
+    "request": [
+      "Teacher_18",
+      "Grades_18",
+      "modify"
+    ],
+    "expected": "Deny",
+    "index": 1158
+  },
+  {
+    "policy": "SIS_POLICY_7",
+    "request": [
+      "Teacher_1",
+      "Grades_01",
+      "modify"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "SIS_POLICY_7",
+    "request": [
+      "Teacher_19",
+      "Grades_19",
+      "view"
+    ],
+    "expected": "Permit",
+    "index": 1285
+  },
+  {
+    "policy": "SIS_POLICY_7",
+    "request": [
+      "Teacher_20",
+      "Grades_20",
+      "modify"
+    ],
+    "expected": "Deny",
+    "index": 1533
+  },
+  {
+    "policy": "SIS_POLICY_7",
+    "request": [
+      "Teacher_21",
+      "Grades_21",
+      "view"
+    ],
+    "expected": "Permit",
+    "index": 1660
+  },
+  {
+    "policy": "SIS_POLICY_8",
+    "request": [
+      "Teacher_1",
+      "Grades_01",
+      "modify"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "SIS_POLICY_8",
+    "request": [
+      "Teacher_22",
+      "Grades_22",
+      "modify"
+    ],
+    "expected": "Deny",
+    "index": 1785
+  },
+  {
+    "policy": "SIS_POLICY_8",
+    "request": [
+      "Teacher_23",
+      "Grades_23",
+      "view"
+    ],
+    "expected": "Permit",
+    "index": 1912
+  },
+  {
+    "policy": "SIS_POLICY_8",
+    "request": [
+      "Teacher_24",
+      "Grades_24",
+      "modify"
+    ],
+    "expected": "Deny",
+    "index": 2037
+  },
+  {
+    "policy": "SIS_POLICY_9",
+    "request": [
+      "Teacher_1",
+      "Grades_01",
+      "modify"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "SIS_POLICY_9",
+    "request": [
+      "Teacher_25",
+      "Grades_25",
+      "view"
+    ],
+    "expected": "Permit",
+    "index": 2164
+  },
+  {
+    "policy": "SIS_POLICY_9",
+    "request": [
+      "Teacher_26",
+      "Grades_26",
+      "modify"
+    ],
+    "expected": "Deny",
+    "index": 2289
+  },
+  {
+    "policy": "SIS_POLICY_9",
+    "request": [
+      "Teacher_27",
+      "Grades_27",
+      "view"
+    ],
+    "expected": "Permit",
+    "index": 2416
+  },
+  {
+    "policy": "SIS_POLICY_10",
+    "request": [
+      "Teacher_1",
+      "Grades_01",
+      "modify"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "SIS_POLICY_10",
+    "request": [
+      "Teacher_28",
+      "Grades_28",
+      "modify"
+    ],
+    "expected": "Deny",
+    "index": 2541
+  },
+  {
+    "policy": "SIS_POLICY_10",
+    "request": [
+      "Teacher_29",
+      "Grades_29",
+      "view"
+    ],
+    "expected": "Permit",
+    "index": 2668
+  },
+  {
+    "policy": "SIS_POLICY_10",
+    "request": [
+      "Teacher_30",
+      "Grades_30",
+      "modify"
+    ],
+    "expected": "Deny",
+    "index": 2916
+  },
+  {
+    "policy": "SIS_POLICY_11",
+    "request": [
+      "Teacher_1",
+      "Grades_01",
+      "modify"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "SIS_POLICY_11",
+    "request": [
+      "Teacher_31",
+      "Grades_31",
+      "view"
+    ],
+    "expected": "Permit",
+    "index": 3043
+  },
+  {
+    "policy": "SIS_POLICY_11",
+    "request": [
+      "Teacher_32",
+      "Grades_32",
+      "modify"
+    ],
+    "expected": "Deny",
+    "index": 3168
+  },
+  {
+    "policy": "SIS_POLICY_12",
+    "request": [
+      "Teacher_1",
+      "Grades_01",
+      "modify"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "SIS_POLICY_12",
+    "request": [
+      "Teacher_33",
+      "Grades_33",
+      "view"
+    ],
+    "expected": "Permit",
+    "index": 3295
+  },
+  {
+    "policy": "SIS_POLICY_12",
+    "request": [
+      "Teacher_34",
+      "Grades_34",
+      "modify"
+    ],
+    "expected": "Deny",
+    "index": 3420
+  },
+  {
+    "policy": "SIS_POLICY_13",
+    "request": [
+      "Teacher_1",
+      "Grades_01",
+      "modify"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "SIS_POLICY_13",
+    "request": [
+      "Teacher_35",
+      "Grades_35",
+      "view"
+    ],
+    "expected": "Permit",
+    "index": 3547
+  },
+  {
+    "policy": "SIS_POLICY_13",
+    "request": [
+      "Teacher_36",
+      "Grades_36",
+      "modify"
+    ],
+    "expected": "Deny",
+    "index": 3672
+  },
+  {
+    "policy": "SIS_POLICY_14",
+    "request": [
+      "Teacher_1",
+      "Grades_01",
+      "modify"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "SIS_POLICY_14",
+    "request": [
+      "Teacher_37",
+      "Grades_37",
+      "view"
+    ],
+    "expected": "Permit",
+    "index": 3799
+  },
+  {
+    "policy": "SIS_POLICY_14",
+    "request": [
+      "Teacher_38",
+      "Grades_38",
+      "modify"
+    ],
+    "expected": "Deny",
+    "index": 3924
+  },
+  {
+    "policy": "SIS_POLICY_15",
+    "request": [
+      "Teacher_1",
+      "Grades_01",
+      "modify"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "SIS_POLICY_15",
+    "request": [
+      "Teacher_39",
+      "Grades_39",
+      "view"
+    ],
+    "expected": "Permit",
+    "index": 4051
+  },
+  {
+    "policy": "SIS_POLICY_15",
+    "request": [
+      "Teacher_40",
+      "Grades_40",
+      "modify"
+    ],
+    "expected": "Deny",
+    "index": 4299
+  }
+]
