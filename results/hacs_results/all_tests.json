@@ -1,0 +1,702 @@
+[
+  {
+    "policy": "HACS_POLICY_1",
+    "request": [
+      "Admin_1",
+      "File_01",
+      "delete"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "HACS_POLICY_1",
+    "request": [
+      "Admin_1",
+      "File_01",
+      "read"
+    ],
+    "expected": "Permit",
+    "index": 2
+  },
+  {
+    "policy": "HACS_POLICY_1",
+    "request": [
+      "Admin_2",
+      "File_02",
+      "write"
+    ],
+    "expected": "Deny",
+    "index": 2813
+  },
+  {
+    "policy": "HACS_POLICY_1",
+    "request": [
+      "Admin_3",
+      "File_03",
+      "delete"
+    ],
+    "expected": "Permit",
+    "index": 5620
+  },
+  {
+    "policy": "HACS_POLICY_2",
+    "request": [
+      "Admin_1",
+      "File_01",
+      "delete"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "HACS_POLICY_2",
+    "request": [
+      "Admin_4",
+      "File_04",
+      "execute"
+    ],
+    "expected": "Deny",
+    "index": 8431
+  },
+  {
+    "policy": "HACS_POLICY_2",
+    "request": [
+      "Admin_5",
+      "File_05",
+      "read"
+    ],
+    "expected": "Permit",
+    "index": 11242
+  },
+  {
+    "policy": "HACS_POLICY_2",
+    "request": [
+      "Admin_6",
+      "File_06",
+      "write"
+    ],
+    "expected": "Deny",
+    "index": 11758
+  },
+  {
+    "policy": "HACS_POLICY_3",
+    "request": [
+      "Admin_1",
+      "File_01",
+      "delete"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "HACS_POLICY_3",
+    "request": [
+      "Admin_7",
+      "File_07",
+      "delete"
+    ],
+    "expected": "Permit",
+    "index": 12015
+  },
+  {
+    "policy": "HACS_POLICY_3",
+    "request": [
+      "Admin_8",
+      "File_08",
+      "execute"
+    ],
+    "expected": "Deny",
+    "index": 12276
+  },
+  {
+    "policy": "HACS_POLICY_3",
+    "request": [
+      "Admin_9",
+      "File_09",
+      "read"
+    ],
+    "expected": "Permit",
+    "index": 12537
+  },
+  {
+    "policy": "HACS_POLICY_4",
+    "request": [
+      "Admin_1",
+      "File_01",
+      "delete"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "HACS_POLICY_4",
+    "request": [
+      "Admin_10",
+      "File_10",
+      "write"
+    ],
+    "expected": "Deny",
+    "index": 303
+  },
+  {
+    "policy": "HACS_POLICY_4",
+    "request": [
+      "Admin_11",
+      "File_11",
+      "delete"
+    ],
+    "expected": "Permit",
+    "index": 560
+  },
+  {
+    "policy": "HACS_POLICY_4",
+    "request": [
+      "Admin_12",
+      "File_12",
+      "execute"
+    ],
+    "expected": "Deny",
+    "index": 821
+  },
+  {
+    "policy": "HACS_POLICY_5",
+    "request": [
+      "Admin_1",
+      "File_01",
+      "delete"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "HACS_POLICY_5",
+    "request": [
+      "Admin_13",
+      "File_13",
+      "read"
+    ],
+    "expected": "Permit",
+    "index": 1082
+  },
+  {
+    "policy": "HACS_POLICY_5",
+    "request": [
+      "Admin_14",
+      "File_14",
+      "write"
+    ],
+    "expected": "Deny",
+    "index": 1343
+  },
+  {
+    "policy": "HACS_POLICY_5",
+    "request": [
+      "Admin_15",
+      "File_15",
+      "delete"
+    ],
+    "expected": "Permit",
+    "index": 1600
+  },
+  {
+    "policy": "HACS_POLICY_6",
+    "request": [
+      "Admin_1",
+      "File_01",
+      "delete"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "HACS_POLICY_6",
+    "request": [
+      "Admin_16",
+      "File_16",
+      "execute"
+    ],
+    "expected": "Deny",
+    "index": 1861
+  },
+  {
+    "policy": "HACS_POLICY_6",
+    "request": [
+      "Admin_17",
+      "File_17",
+      "read"
+    ],
+    "expected": "Permit",
+    "index": 2122
+  },
+  {
+    "policy": "HACS_POLICY_6",
+    "request": [
+      "Admin_18",
+      "File_18",
+      "write"
+    ],
+    "expected": "Deny",
+    "index": 2383
+  },
+  {
+    "policy": "HACS_POLICY_7",
+    "request": [
+      "Admin_1",
+      "File_01",
+      "delete"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "HACS_POLICY_7",
+    "request": [
+      "Admin_19",
+      "File_19",
+      "delete"
+    ],
+    "expected": "Permit",
+    "index": 2640
+  },
+  {
+    "policy": "HACS_POLICY_7",
+    "request": [
+      "Admin_20",
+      "File_20",
+      "execute"
+    ],
+    "expected": "Deny",
+    "index": 3156
+  },
+  {
+    "policy": "HACS_POLICY_7",
+    "request": [
+      "Admin_21",
+      "File_21",
+      "read"
+    ],
+    "expected": "Permit",
+    "index": 3417
+  },
+  {
+    "policy": "HACS_POLICY_8",
+    "request": [
+      "Admin_1",
+      "File_01",
+      "delete"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "HACS_POLICY_8",
+    "request": [
+      "Admin_22",
+      "File_22",
+      "write"
+    ],
+    "expected": "Deny",
+    "index": 3678
+  },
+  {
+    "policy": "HACS_POLICY_8",
+    "request": [
+      "Admin_23",
+      "File_23",
+      "delete"
+    ],
+    "expected": "Permit",
+    "index": 3935
+  },
+  {
+    "policy": "HACS_POLICY_8",
+    "request": [
+      "Admin_24",
+      "File_24",
+      "execute"
+    ],
+    "expected": "Deny",
+    "index": 4196
+  },
+  {
+    "policy": "HACS_POLICY_9",
+    "request": [
+      "Admin_1",
+      "File_01",
+      "delete"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "HACS_POLICY_9",
+    "request": [
+      "Admin_25",
+      "File_25",
+      "read"
+    ],
+    "expected": "Permit",
+    "index": 4457
+  },
+  {
+    "policy": "HACS_POLICY_9",
+    "request": [
+      "Admin_26",
+      "File_26",
+      "write"
+    ],
+    "expected": "Deny",
+    "index": 4718
+  },
+  {
+    "policy": "HACS_POLICY_9",
+    "request": [
+      "Admin_27",
+      "File_27",
+      "delete"
+    ],
+    "expected": "Permit",
+    "index": 4975
+  },
+  {
+    "policy": "HACS_POLICY_10",
+    "request": [
+      "Admin_1",
+      "File_01",
+      "delete"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "HACS_POLICY_10",
+    "request": [
+      "Admin_28",
+      "File_28",
+      "execute"
+    ],
+    "expected": "Deny",
+    "index": 5236
+  },
+  {
+    "policy": "HACS_POLICY_10",
+    "request": [
+      "Admin_29",
+      "File_29",
+      "read"
+    ],
+    "expected": "Permit",
+    "index": 5497
+  },
+  {
+    "policy": "HACS_POLICY_10",
+    "request": [
+      "Admin_30",
+      "File_30",
+      "write"
+    ],
+    "expected": "Deny",
+    "index": 6013
+  },
+  {
+    "policy": "HACS_POLICY_11",
+    "request": [
+      "Admin_1",
+      "File_01",
+      "delete"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "HACS_POLICY_11",
+    "request": [
+      "Admin_31",
+      "File_31",
+      "delete"
+    ],
+    "expected": "Permit",
+    "index": 6270
+  },
+  {
+    "policy": "HACS_POLICY_11",
+    "request": [
+      "Admin_32",
+      "File_32",
+      "execute"
+    ],
+    "expected": "Deny",
+    "index": 6531
+  },
+  {
+    "policy": "HACS_POLICY_12",
+    "request": [
+      "Admin_1",
+      "File_01",
+      "delete"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "HACS_POLICY_12",
+    "request": [
+      "Admin_33",
+      "File_33",
+      "read"
+    ],
+    "expected": "Permit",
+    "index": 6792
+  },
+  {
+    "policy": "HACS_POLICY_12",
+    "request": [
+      "Admin_34",
+      "File_34",
+      "write"
+    ],
+    "expected": "Deny",
+    "index": 7053
+  },
+  {
+    "policy": "HACS_POLICY_13",
+    "request": [
+      "Admin_1",
+      "File_01",
+      "delete"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "HACS_POLICY_13",
+    "request": [
+      "Admin_35",
+      "File_35",
+      "delete"
+    ],
+    "expected": "Permit",
+    "index": 7310
+  },
+  {
+    "policy": "HACS_POLICY_13",
+    "request": [
+      "Admin_36",
+      "File_36",
+      "execute"
+    ],
+    "expected": "Deny",
+    "index": 7571
+  },
+  {
+    "policy": "HACS_POLICY_14",
+    "request": [
+      "Admin_1",
+      "File_01",
+      "delete"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "HACS_POLICY_14",
+    "request": [
+      "Admin_37",
+      "File_37",
+      "read"
+    ],
+    "expected": "Permit",
+    "index": 7832
+  },
+  {
+    "policy": "HACS_POLICY_14",
+    "request": [
+      "Admin_38",
+      "File_38",
+      "write"
+    ],
+    "expected": "Deny",
+    "index": 8093
+  },
+  {
+    "policy": "HACS_POLICY_15",
+    "request": [
+      "Admin_1",
+      "File_01",
+      "delete"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "HACS_POLICY_15",
+    "request": [
+      "Admin_39",
+      "File_39",
+      "delete"
+    ],
+    "expected": "Permit",
+    "index": 8350
+  },
+  {
+    "policy": "HACS_POLICY_15",
+    "request": [
+      "Admin_40",
+      "File_40",
+      "execute"
+    ],
+    "expected": "Deny",
+    "index": 8866
+  },
+  {
+    "policy": "HACS_POLICY_16",
+    "request": [
+      "Admin_1",
+      "File_01",
+      "delete"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "HACS_POLICY_16",
+    "request": [
+      "Admin_41",
+      "File_41",
+      "read"
+    ],
+    "expected": "Permit",
+    "index": 9127
+  },
+  {
+    "policy": "HACS_POLICY_16",
+    "request": [
+      "Admin_42",
+      "File_42",
+      "write"
+    ],
+    "expected": "Deny",
+    "index": 9388
+  },
+  {
+    "policy": "HACS_POLICY_17",
+    "request": [
+      "Admin_1",
+      "File_01",
+      "delete"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "HACS_POLICY_17",
+    "request": [
+      "Admin_43",
+      "File_43",
+      "delete"
+    ],
+    "expected": "Permit",
+    "index": 9645
+  },
+  {
+    "policy": "HACS_POLICY_17",
+    "request": [
+      "Admin_44",
+      "File_44",
+      "execute"
+    ],
+    "expected": "Deny",
+    "index": 9906
+  },
+  {
+    "policy": "HACS_POLICY_18",
+    "request": [
+      "Admin_1",
+      "File_01",
+      "delete"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "HACS_POLICY_18",
+    "request": [
+      "Admin_45",
+      "File_45",
+      "read"
+    ],
+    "expected": "Permit",
+    "index": 10167
+  },
+  {
+    "policy": "HACS_POLICY_18",
+    "request": [
+      "Admin_46",
+      "File_46",
+      "write"
+    ],
+    "expected": "Deny",
+    "index": 10428
+  },
+  {
+    "policy": "HACS_POLICY_19",
+    "request": [
+      "Admin_1",
+      "File_01",
+      "delete"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "HACS_POLICY_19",
+    "request": [
+      "Admin_47",
+      "File_47",
+      "delete"
+    ],
+    "expected": "Permit",
+    "index": 10685
+  },
+  {
+    "policy": "HACS_POLICY_19",
+    "request": [
+      "Admin_48",
+      "File_48",
+      "execute"
+    ],
+    "expected": "Deny",
+    "index": 10946
+  },
+  {
+    "policy": "HACS_POLICY_20",
+    "request": [
+      "Admin_1",
+      "File_01",
+      "delete"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "HACS_POLICY_20",
+    "request": [
+      "Admin_49",
+      "File_49",
+      "read"
+    ],
+    "expected": "Permit",
+    "index": 11207
+  },
+  {
+    "policy": "HACS_POLICY_20",
+    "request": [
+      "Admin_50",
+      "File_50",
+      "write"
+    ],
+    "expected": "Deny",
+    "index": 11723
+  }
+]

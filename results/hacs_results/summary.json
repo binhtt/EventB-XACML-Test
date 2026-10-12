@@ -1,0 +1,25 @@
+{
+  "rules": 50,
+  "permit_rules": 25,
+  "deny_rules": 25,
+  "policies": 20,
+  "domain_requests": 13005,
+  "reference_evaluations": 260100,
+  "selected_test_evaluations": 70,
+  "unique_request_values": 51,
+  "mutants": 290,
+  "killed": 250,
+  "equivalent_finite": 40,
+  "source_sha256": "a284d7b6b8bbeec9c3125221790ec7b962a38a3c00686a4e3c06e73e784e069a",
+  "membership_sha256": "dac67755f5339b274ac96ac91ae093a76b7e2df0e6df5ddbbdb6185ca33c5c53",
+  "assumptions": [
+    "PolicyRule fragments normalized to singleton-equality XACML 3.0 targets",
+    "policy membership from public repository; all 50 rules accounted for",
+    "DenyOverrides assumed because combining algorithm absent from provided data",
+    "missing conditions are true; policy targets universal; environment singleton",
+    "20 policies tested independently, no root PolicySet result",
+    "new concrete context not verified by Rodin",
+    "restricted binding parser; original machine events not executed",
+    "local compiled XML-subset evaluator, not independent PDP; no XSD validation"
+  ]
+}
