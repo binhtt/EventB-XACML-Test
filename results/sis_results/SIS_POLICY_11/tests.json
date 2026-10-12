@@ -1,0 +1,32 @@
+[
+  {
+    "policy": "SIS_POLICY_11",
+    "request": [
+      "Teacher_1",
+      "Grades_01",
+      "modify"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "SIS_POLICY_11",
+    "request": [
+      "Teacher_31",
+      "Grades_31",
+      "view"
+    ],
+    "expected": "Permit",
+    "index": 3043
+  },
+  {
+    "policy": "SIS_POLICY_11",
+    "request": [
+      "Teacher_32",
+      "Grades_32",
+      "modify"
+    ],
+    "expected": "Deny",
+    "index": 3168
+  }
+]
