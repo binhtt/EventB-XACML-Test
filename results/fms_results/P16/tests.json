@@ -1,0 +1,12 @@
+[
+  {
+    "policy": "P16",
+    "request": [
+      "Role1",
+      "Action1"
+    ],
+    "expected": "NotApplicable",
+    "model_event": "Combine_DenyOverrides_NotApplicable",
+    "index": 0
+  }
+]

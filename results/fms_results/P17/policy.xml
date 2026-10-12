@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:Policy xmlns:ns0="urn:oasis:names:tc:xacml:3.0:core:schema:wd-17" PolicyId="P17" Version="1.0" RuleCombiningAlgId="urn:oasis:names:tc:xacml:1.0:rule-combining-algorithm:deny-overrides"><ns0:Target /></ns0:Policy>
