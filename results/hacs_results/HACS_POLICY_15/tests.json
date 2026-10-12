@@ -1,0 +1,32 @@
+[
+  {
+    "policy": "HACS_POLICY_15",
+    "request": [
+      "Admin_1",
+      "File_01",
+      "delete"
+    ],
+    "expected": "NotApplicable",
+    "index": 0
+  },
+  {
+    "policy": "HACS_POLICY_15",
+    "request": [
+      "Admin_39",
+      "File_39",
+      "delete"
+    ],
+    "expected": "Permit",
+    "index": 8350
+  },
+  {
+    "policy": "HACS_POLICY_15",
+    "request": [
+      "Admin_40",
+      "File_40",
+      "execute"
+    ],
+    "expected": "Deny",
+    "index": 8866
+  }
+]
